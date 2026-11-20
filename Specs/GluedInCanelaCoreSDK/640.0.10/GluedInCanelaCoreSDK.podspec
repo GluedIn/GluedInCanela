@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
  
   s.name         = "GluedInCanelaCoreSDK"
-  s.version      = "640.0.10"
+  s.version      = "640.0.11"
   s.summary      = "GluedIn Core SDK for prebuild api's method"
   s.description  = "GluedIn SDK facilitate application to increase user interaction and It increases user stickiness on the application."
   s.homepage     = "https://github.com/GluedIn/GluedInCanelaCore"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = "12.0"
   s.swift_version = "5.1"
-  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaCoreSDK/640.0.10/GluedInCoreSDK.zip", :type => "zip", :sha256 => '6f89c867111862cecd0c5f844b60504ac4429bf812336696290ad496f8ca13a9' }
+  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaCoreSDK/640.0.11/GluedInCoreSDK.zip", :type => "zip", :sha256 => '4ca511c7476cde67b3d6e47b79ef56013ca677de67e17a564a632aebd53f178b' }
   s.vendored_frameworks = 'GluedInCoreSDK.xcframework'
   
   s.xcconfig = {
