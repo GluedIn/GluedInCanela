@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
  
   s.name         = "GluedInCanelaSDK"
-  s.version      = "640.0.11"
+  s.version      = "640.0.10"
   s.summary      = "GluedIn framework for OTT platform apps."
   s.description  = "GluedIn Feed SDK facilitate application to increase user interaction and It increases user stickiness on the application."
   s.homepage     = "https://github.com/GluedIn/GluedInCanela"
@@ -27,15 +27,15 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = "12.0"
   s.swift_version = "5.1"
-  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaSDK/640.0.11/GluedInSDK.zip", :type => "zip", :sha256 => "992271b78effc5f971af1f01c3cc70b749ca3edd67eab6003670609b27259af3"}
+  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaSDK/640.0.10/GluedInSDK.zip", :type => "zip", :sha256 => "e1a206351e12072363b910377eea7039b0d4a8891760ddeb05bded6dd29fd649"}
   s.vendored_frameworks = 'GluedInSDK.xcframework'
   # s.static_framework = true
   # s.requires_arc = true
   
   s.dependency 'SDWebImage'
-  s.dependency 'GluedInCanelaCoreSDK', '640.0.11'
-  s.dependency 'GluedInCanelaFeedSDK', '640.0.11'
-  s.dependency 'GluedInCanelaRewardSDK', '640.0.11'
+  s.dependency 'GluedInCanelaCoreSDK', '640.0.10'
+  s.dependency 'GluedInCanelaFeedSDK', '640.0.10'
+  s.dependency 'GluedInCanelaRewardSDK', '640.0.10'
 
   s.xcconfig = {
     'ONLY_ACTIVE_ARCH' => 'YES',

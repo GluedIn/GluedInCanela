@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GluedInCanelaRewardSDK"
-  s.version      = "640.0.11"
+  s.version      = "640.0.10"
   s.summary      = "GluedIn Reward SDK for prebuild api's method"
   s.description  = "GluedIn Reward SDK facilitate application to increase user interaction and It increases user stickiness on the application."
   s.homepage     = "https://github.com/GluedIn/GluedInCanelaReward"
@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = "12.0"
   s.swift_version = "5.1"
-  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaRewardSDK/640.0.11/GluedInRewardSDK.zip", :type => "zip", :sha256 => "a9cabb168b33b9b3dfb10afd1f5fdd37cf1060336258c9a9078ed624d8c9234f" }
+  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaRewardSDK/640.0.10/GluedInRewardSDK.zip", :type => "zip", :sha256 => "9712fa3386fa3ed783fe6a6385e17219755991d5d6dc50ba5cc68ce1c8667e8c" }
   s.vendored_frameworks = 'GluedInRewardSDK.xcframework'
   # s.static_framework = true
   # s.requires_arc = true
 
-  s.dependency 'GluedInCanelaCoreSDK', '640.0.11'
+  s.dependency 'GluedInCanelaCoreSDK', '640.0.10'
   s.dependency 'SDWebImage'
   
   s.xcconfig = {

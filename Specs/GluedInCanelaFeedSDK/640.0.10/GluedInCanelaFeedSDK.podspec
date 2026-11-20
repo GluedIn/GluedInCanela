@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
  
   s.name         = "GluedInCanelaFeedSDK"
-  s.version      = "640.0.11"
+  s.version      = "640.0.10"
   s.summary      = "GluedIn Feed SDK for prebuild api's method"
   s.description  = "GluedIn Feed SDK facilitate application to increase user interaction and It increases user stickiness on the application."
   s.homepage     = "https://github.com/GluedIn/GluedInCanelaFeed"
@@ -28,12 +28,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = "12.0"
   s.swift_version = "5.1"
-  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaFeedSDK/640.0.11/GluedInFeedSDK.zip", :type => "zip", :sha256 => "e1019f691bf5c8f4b9d75142212ff08feed1e81656938b72b2f49fff659152e9" }
+  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInCanela/GluedInCanelaFeedSDK/640.0.10/GluedInFeedSDK.zip", :type => "zip", :sha256 => "d92998a94634af3cdb1de72df6f74a346e0544a5ae4c403719c57974dde035ba" }
   s.vendored_frameworks = 'GluedInFeedSDK.xcframework'
   # s.static_framework = true
   # s.requires_arc = true
   
-  s.dependency 'GluedInCanelaCoreSDK', '640.0.11'
+  s.dependency 'GluedInCanelaCoreSDK', '640.0.10'
   # s.dependency 'SkeletonView'
   s.dependency 'SDWebImage'
   #  s.dependency 'FTPopOverMenu_Swift'
